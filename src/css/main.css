@@ -4,7 +4,7 @@
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
     min-height: 70px;
-    padding: 30px;
+    padding: 50px 30px 20px 30px;
     color: white;
     font-size: 1.1rem;
     font-weight: bold;
@@ -37,6 +37,10 @@
     transform: scale(1.2);
 }
 
+.bottomFooter .active{
+    transform: scale(1.5);
+}
+
 .add-button{
     position: fixed;
     bottom: 80px;
@@ -49,4 +53,21 @@
     justify-content: center;
     align-items: center;
     box-shadow: 3px 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+
+
+.tarjeta{
+    margin:20px;
+    border-radius: 20px;
+    padding: 20px;
+    background-color: bisque;
+    font-size:1.1rem;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    display:flex;
+    flex-direction: column;
+}
+
+main{
+    margin-bottom: 100px;
 }

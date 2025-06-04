@@ -10,3 +10,7 @@ import alertify from 'alertifyjs';
 // Importa los estilos CSS (importante)
 import 'alertifyjs/build/css/alertify.min.css';
 import 'alertifyjs/build/css/themes/default.min.css'; // Tema por defecto
+
+document.getElementById("btnUsers").addEventListener("click", function(){
+    window.location.href = "/screens/users.html";
+});
