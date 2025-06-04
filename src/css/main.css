@@ -1,0 +1,35 @@
+.initialHeader {
+    width: 100%;
+    background-color: darkslategrey;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    min-height: 70px;
+    padding: 30px;
+    color: white;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.bottomFooter {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background-color: rgb(235, 234, 233);
+    padding: 20px;
+    box-shadow: 0px -1px 20px rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.bottomFooter div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 14px;
+}
+
+.bottomFooter div:
