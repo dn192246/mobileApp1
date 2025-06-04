@@ -30,6 +30,23 @@
     justify-content: space-evenly;
     align-items: center;
     font-size: 14px;
+    transition: 0.4s transform;
 }
 
-.bottomFooter div:
+.bottomFooter div:active, .add-button:active{
+    transform: scale(1.2);
+}
+
+.add-button{
+    position: fixed;
+    bottom: 80px;
+    right: 30px;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    transition: 0.4s transform;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 3px 10px 20px rgba(0, 0, 0, 0.2);
+}

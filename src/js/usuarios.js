@@ -32,7 +32,7 @@ export async function GuardarRegistro(){
             apellido,
             edad
         });
-        alertify.success("Se agregó el registro. ID de referencia: " + docRef.id)
+        alertify.success("Se agregó el registro. ID de referencia: " + docRef.id);
         document.getElementById("frmUsuarios").reset();
     } 
     catch(e){
